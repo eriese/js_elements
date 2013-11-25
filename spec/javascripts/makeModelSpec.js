@@ -41,6 +41,10 @@ describe("Model", function(){
       expect(model.name).toBe(undefined);
     });
 
+    it("sets the property to gettable", function() {
+      model.set({name: "Fabio"});
+      expect(model.get("name")).toBe("Fabio")
+    })
   });
 
 
