@@ -1,5 +1,4 @@
 // Create a function called make$Element that returns a jQuery wrapped DOM element.
-
 describe("make$Element", function(){
 
   describe("creates a new Element", function(){
